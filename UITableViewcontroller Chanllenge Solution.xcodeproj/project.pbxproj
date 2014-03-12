@@ -14,13 +14,13 @@
 		DBDD913018D080D300A7205F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DBDD912F18D080D300A7205F /* main.m */; };
 		DBDD913418D080D300A7205F /* DURCHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DBDD913318D080D300A7205F /* DURCHAppDelegate.m */; };
 		DBDD913718D080D300A7205F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBDD913518D080D300A7205F /* Main.storyboard */; };
-		DBDD913A18D080D300A7205F /* DURCHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBDD913918D080D300A7205F /* DURCHViewController.m */; };
 		DBDD913C18D080D300A7205F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBDD913B18D080D300A7205F /* Images.xcassets */; };
 		DBDD914318D080D300A7205F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBDD914218D080D300A7205F /* XCTest.framework */; };
 		DBDD914418D080D300A7205F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBDD912318D080D300A7205F /* Foundation.framework */; };
 		DBDD914518D080D300A7205F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBDD912718D080D300A7205F /* UIKit.framework */; };
 		DBDD914D18D080D300A7205F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DBDD914B18D080D300A7205F /* InfoPlist.strings */; };
 		DBDD914F18D080D300A7205F /* UITableViewcontroller_Chanllenge_SolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DBDD914E18D080D300A7205F /* UITableViewcontroller_Chanllenge_SolutionTests.m */; };
+		DBDD915A18D0822A00A7205F /* DURCHTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBDD915918D0822A00A7205F /* DURCHTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +45,14 @@
 		DBDD913218D080D300A7205F /* DURCHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DURCHAppDelegate.h; sourceTree = "<group>"; };
 		DBDD913318D080D300A7205F /* DURCHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DURCHAppDelegate.m; sourceTree = "<group>"; };
 		DBDD913618D080D300A7205F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		DBDD913818D080D300A7205F /* DURCHViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DURCHViewController.h; sourceTree = "<group>"; };
-		DBDD913918D080D300A7205F /* DURCHViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DURCHViewController.m; sourceTree = "<group>"; };
 		DBDD913B18D080D300A7205F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		DBDD914118D080D300A7205F /* UITableViewcontroller Chanllenge SolutionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UITableViewcontroller Chanllenge SolutionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBDD914218D080D300A7205F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		DBDD914A18D080D300A7205F /* UITableViewcontroller Chanllenge SolutionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UITableViewcontroller Chanllenge SolutionTests-Info.plist"; sourceTree = "<group>"; };
 		DBDD914C18D080D300A7205F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DBDD914E18D080D300A7205F /* UITableViewcontroller_Chanllenge_SolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableViewcontroller_Chanllenge_SolutionTests.m; sourceTree = "<group>"; };
+		DBDD915818D0822A00A7205F /* DURCHTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DURCHTableViewController.h; sourceTree = "<group>"; };
+		DBDD915918D0822A00A7205F /* DURCHTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DURCHTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +115,8 @@
 				DBDD913218D080D300A7205F /* DURCHAppDelegate.h */,
 				DBDD913318D080D300A7205F /* DURCHAppDelegate.m */,
 				DBDD913518D080D300A7205F /* Main.storyboard */,
-				DBDD913818D080D300A7205F /* DURCHViewController.h */,
-				DBDD913918D080D300A7205F /* DURCHViewController.m */,
+				DBDD915818D0822A00A7205F /* DURCHTableViewController.h */,
+				DBDD915918D0822A00A7205F /* DURCHTableViewController.m */,
 				DBDD913B18D080D300A7205F /* Images.xcassets */,
 				DBDD912A18D080D300A7205F /* Supporting Files */,
 			);
@@ -251,7 +251,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DBDD913018D080D300A7205F /* main.m in Sources */,
-				DBDD913A18D080D300A7205F /* DURCHViewController.m in Sources */,
+				DBDD915A18D0822A00A7205F /* DURCHTableViewController.m in Sources */,
 				DBDD913418D080D300A7205F /* DURCHAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

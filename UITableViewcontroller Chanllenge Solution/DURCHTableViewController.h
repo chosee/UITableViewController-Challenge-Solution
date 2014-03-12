@@ -1,5 +1,5 @@
 //
-//  DURCHViewController.h
+//  DURCHTableViewController.h
 //  UITableViewcontroller Chanllenge Solution
 //
 //  Created by Roger Gösele on 12-03-14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface DURCHViewController : UIViewController
+@interface DURCHTableViewController : UITableViewController
 
 @end
